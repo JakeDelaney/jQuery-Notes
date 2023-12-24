@@ -13,15 +13,6 @@ $("h1").html("<p>Hello world!</p>")
 $(".btn1".addClass("btn-green"))
 $(".btn1".removeClass("btn-green"))
 
-//hide or show elements
-$("#hide").click(function(){
-    $("p").hide();
-  });
-  
-  $("#show").click(function(){
-    $("p").show();
-  });
-
 // Modify the text content of all of the paragraph elements on the page
 $("p").text("New text");
 
